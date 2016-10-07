@@ -14,5 +14,6 @@ public class CheckOddEven {
 		{
 			System.out.print("The input integer is Odd Number.");
 		}
+		scanner.close();
 	}
 }
