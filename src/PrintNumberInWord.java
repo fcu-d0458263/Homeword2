@@ -16,6 +16,7 @@ public class PrintNumberInWord {
 		{
 			System.out.printf("%s",str[num-1]);
 		}
+		scanner.close();
 	}
 
 }
