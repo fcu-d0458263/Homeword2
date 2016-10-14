@@ -4,8 +4,8 @@ public class StringComparator {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String str1,str2;
+		Scanner scanner = new Scanner(System.in);
 		while(true){
-	    Scanner scanner = new Scanner(System.in);
 		System.out.print("Enter a string 1:");
 		str1 = scanner.next();
 		System.out.print("Enter a string 2:");
@@ -14,7 +14,7 @@ public class StringComparator {
 		if(str1.equalsIgnoreCase(str2))
 		{
 			System.out.print("The two strings are the same.");
-			scanner.close();
+			
 			break;
 		}
 		else
@@ -22,6 +22,7 @@ public class StringComparator {
 			continue ;
 		}
 		}
+		scanner.close();
 	}
 
 }  
